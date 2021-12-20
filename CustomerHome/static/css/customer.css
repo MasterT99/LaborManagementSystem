@@ -43,7 +43,7 @@ a:hover {
     margin: auto;
     width: 0%;
     content: '.';
-    color: transpabook;
+    color: transparent;
     background: orange;
     height: 1px;
 }
