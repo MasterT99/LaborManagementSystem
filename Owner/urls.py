@@ -1,9 +1,10 @@
-from django.urls import path
-from . import views
 from django.conf import settings
 from django.conf.urls.static import static
+from django.urls import path
+
 from CustomerHome import views as cust_views
 from Workers import views as wor_views
+from . import views
 
 urlpatterns = [
     path('', views.index, name="Owner"),
