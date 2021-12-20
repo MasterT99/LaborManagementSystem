@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,95 +24,110 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="font-size: larger;" aria-label="" aria-labbelledby="">
-        <a href="/Home"><img class="navbar-brand" src="{% static 'img/Logos/Trial3Logo.png' %}" height="50"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="font-size: larger;" aria-label=""
+     aria-labbelledby="">
+    <a href="/Home"><img class="navbar-brand" src="{% static 'img/Logos/Trial3Logo.png' %}" height="50"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/" style="color: #f1f1f1;">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../sitemap" style="color: #f1f1f1;">Sitemap</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../contact" style="color: #f1f1f1;">Contact us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../about" style="color: #f1f1f1;">About us</a>
-                </li>
-            </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/" style="color: #f1f1f1;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../sitemap" style="color: #f1f1f1;">Sitemap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact" style="color: #f1f1f1;">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about" style="color: #f1f1f1;">About us</a>
+            </li>
+        </ul>
 
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="/Profile" style="color: #f1f1f1;" title="Your Profile">
-                        Hello! {% block name %}{%endblock%}</a>
-                </li>
-            </ul>
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="/Profile" style="color: #f1f1f1;" title="Your Profile">
+                    Hello! {% block name %}{%endblock%}</a>
+            </li>
+        </ul>
 
-            <ul class="navbar-nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="/Logout" style="color: #f1f1f1;">
-                        Logout</a>
-                </li>
-            </ul>
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="/Logout" style="color: #f1f1f1;">
+                    Logout</a>
+            </li>
+        </ul>
 
-        </div>
-    </nav>
-
-    <div class="container-fluid">
-        <br>
-        <div class="container rounded"
-            style="font-size: 20px; text-align: justify; background: lightblue;">
-            <br>
-            <figure>
-                <img style="float: right; margin: 20px" src={% static "img/defaultuser.jpg" %}
-                    alt="CEO" />
-                <!-- <figcaption style="float: bottom; margin: 20px">CEO</figcaption> -->
-            </figure>
-
-            <p>
-                <h1>CEO Greetings,</h1>
-            </p>
-            <p>
-                <h2>We will construct the beautiful future with changes and innovations.</h2>
-            </p>
-            <p>
-            Id temporibus recusandae esse aliquid numquam. Eum praesentium rerum ut itaque aliquid quia sit. Ea sunt est ipsam quo voluptate. Esse illo commodi quae ut. Sit ad explicabo voluptatem consequatur iste voluptates natus voluptatem.
-            </p>
-            <p>
-            Cumque nihil quia modi culpa magnam excepturi expedita aut. Maiores fuga et nobis occaecati laudantium reprehenderit earum eligendi. Et eius libero est autem natus et facere. Deserunt cum placeat laudantium.
-            </p>
-            <p>
-            Doloribus reiciendis et iure est aperiam sapiente ducimus. Voluptas et fugiat amet cupiditate modi eos quo eaque. Vitae eum quam labore dolorem.
-            </p>
-            <p>
-            Omnis commodi tenetur aut voluptates a officiis eligendi. Iure consequatur ratione nemo soluta. Possimus corporis consequuntur ipsum est autem voluptas. Architecto accusamus dolorem nihil magni odio quia. Corporis dolorum labore non magni est. Veritatis voluptates aut vero.
-            </p>
-            <p>
-            Et magni veniam soluta cupiditate pariatur. Pariatur illum ut aut. Fugit cumque aut repudiandae placeat aut nam pariatur. Dolores quas non exercitationem perferendis est hic repudiandae porro.
-            </p>
-            <p>Also, as a member of global community, we will be a beautiful
-                partner with love and giving attitude.
-                <br><br>
-            <h2>Mr. John Doe</h2>
-            <p>
-                Labor Management System Company LTD., CEO<br> January 1, 2022
-            </p>
-            <br>
-        </div>
-        <br>
-        {% block pagecontent %} {% endblock pagecontent %}
     </div>
+</nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<div class="container-fluid">
+    <br>
+    <div class="container rounded"
+         style="font-size: 20px; text-align: justify; background: lightblue;">
+        <br>
+        <figure>
+            <img style="float: right; margin: 20px" src={% static "img/defaultuser.jpg" %}
+            alt="CEO" />
+            <!-- <figcaption style="float: bottom; margin: 20px">CEO</figcaption> -->
+        </figure>
+
+        <p>
+        <h1>CEO Greetings,</h1>
+        </p>
+        <p>
+        <h2>We will construct the beautiful future with changes and innovations.</h2>
+        </p>
+        <p>
+            Id temporibus recusandae esse aliquid numquam. Eum praesentium rerum ut itaque aliquid quia sit. Ea sunt est
+            ipsam quo voluptate. Esse illo commodi quae ut. Sit ad explicabo voluptatem consequatur iste voluptates
+            natus voluptatem.
+        </p>
+        <p>
+            Cumque nihil quia modi culpa magnam excepturi expedita aut. Maiores fuga et nobis occaecati laudantium
+            reprehenderit earum eligendi. Et eius libero est autem natus et facere. Deserunt cum placeat laudantium.
+        </p>
+        <p>
+            Doloribus reiciendis et iure est aperiam sapiente ducimus. Voluptas et fugiat amet cupiditate modi eos quo
+            eaque. Vitae eum quam labore dolorem.
+        </p>
+        <p>
+            Omnis commodi tenetur aut voluptates a officiis eligendi. Iure consequatur ratione nemo soluta. Possimus
+            corporis consequuntur ipsum est autem voluptas. Architecto accusamus dolorem nihil magni odio quia. Corporis
+            dolorum labore non magni est. Veritatis voluptates aut vero.
+        </p>
+        <p>
+            Et magni veniam soluta cupiditate pariatur. Pariatur illum ut aut. Fugit cumque aut repudiandae placeat aut
+            nam pariatur. Dolores quas non exercitationem perferendis est hic repudiandae porro.
+        </p>
+        <p>Also, as a member of global community, we will be a beautiful
+            partner with love and giving attitude.
+            <br><br>
+        <h2>Mr. John Doe</h2>
+        <p>
+            Labor Management System Company LTD., CEO<br> January 1, 2022
+        </p>
+        <br>
+    </div>
+    <br>
+    {% block pagecontent %} {% endblock pagecontent %}
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
